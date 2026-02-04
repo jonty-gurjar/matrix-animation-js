@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;  
+    font-family: monospace;
+    cursor: none;
+    
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+h1 {
+  font-size: 80px;
+  color: rgb(2, 239, 2);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 10px;
+  z-index: 2;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    z-index: 2;
+    color: rgb(0, 255, 0);
+}
+
+p {
+    font-size: 35px;
+    color: rgb(0, 255, 0);
+    z-index: 2;
+}
